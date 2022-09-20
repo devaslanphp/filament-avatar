@@ -15,7 +15,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Devaslanphp\\FilamentAvatarProvider\\": "src/"
+            "Devaslanphp\\FilamentAvatar\\": "src/"
         }
     },
     "authors": [
