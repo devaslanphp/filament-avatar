@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Devaslanphp\\FilamentAvatarProvider\\FilamentAvatarProviderProvider"
+                "Devaslanphp\\FilamentAvatar\\FilamentAvatarProvider"
             ]
         }
     },
