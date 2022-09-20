@@ -1,0 +1,36 @@
+{
+    "name": "devaslanphp/filament-avatar-provider",
+    "description": "A complete user avatar provider for Filament",
+    "keywords": [
+        "filament",
+        "user",
+        "avatar",
+        "provider"
+    ],
+    "homepage": "https://github.com/devaslanphp/filament-avatar-provider",
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-package-tools": "^1.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devaslanphp\\FilamentAvatarProvider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EL OUFIR Hatim",
+            "email": "eloufirhatim@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devaslanphp\\FilamentAvatarProvider\\FilamentAvatarProviderProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
