@@ -15,16 +15,9 @@ class FilamentUserAvatarProvider
      */
     public function get(Model $user): string
     {
-        $provider = null;
-        switch (config('filament-avatar.default_provider')) {
-            case 'ui-avatar':
-                $provider = new UiAvatarsProvider();
-                break;
-            case 'gravatar':
-                $provider = new GravatarProvider();
-                break;
-        }
-        return $provider?->get($user);
+        $default_provider = config('filament-avatar.default_provider');
+        $provider = config('filament-avatar.providers.' . $default_provider . '.class');
+        return (new $provider)->get($user);
     }
 
 }

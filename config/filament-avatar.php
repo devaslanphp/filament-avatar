@@ -23,6 +23,9 @@ return [
     'providers' => [
         // UI Avatar provider (https://ui-avatars.com/)
         'ui-avatar' => [
+            // Class used to generate the user avatar
+            'class' => \Devaslanphp\FilamentAvatar\Core\UiAvatarsProvider::class,
+
             // UI Avatar source url
             'url' => 'https://ui-avatars.com/api/',
 
@@ -47,6 +50,9 @@ return [
 
         // Gravatar provider (https://gravatar.com)
         'gravatar' => [
+            // Class used to generate the user avatar
+            'class' => \Devaslanphp\FilamentAvatar\Core\GravatarProvider::class,
+
             // Gravatar source url
             'url' => 'https://www.gravatar.com/avatar/',
 
