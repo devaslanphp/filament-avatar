@@ -111,7 +111,7 @@ I think it's well documented, I will let you check it.
 
 # Custom provider
 
-If you want to add you personalized avatar provider, Follow the below steps:
+If you want to add your personalized avatar provider, Follow the below steps:
 1. Create a PHP class that implements a function `get(Model $user): string` (you can check `\Devaslanphp\FilamentAvatar\Core\GravatarProvider`)
 2. Add a new provider to `config('filament-avatar.providers')`, with `class` parameter where you will put your custom class (you can check the configuration file to make the same)
 3. Update the `config('filament.default_avatar_provider')` with your provider name
