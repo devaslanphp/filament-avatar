@@ -126,7 +126,7 @@ This trait will give you access to an appended attribute `avatarUrl` generated b
 
 ## Support
 
-For fast support, please join the [**Filament** community](https://filamentphp.com/discord) discord and send me a message in this channel [#workflow-manager](https://discord.com/channels/883083792112300104/1022104259644362823)
+For fast support, please join the [**Filament** community](https://filamentphp.com/discord) discord and send me a message in this channel [#avatar-provider](https://discord.com/channels/883083792112300104/1022104259644362823)
 
 ## Credits
 
