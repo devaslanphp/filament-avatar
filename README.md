@@ -131,7 +131,7 @@ For fast support, please join the [**Filament** community](https://filamentphp.c
 ## Credits
 
 - [heloufir](https://github.com/heloufir)
-- [All Contributors](https://github.com/heloufir/filament-workflow-manager/graphs/contributors)
+- [All Contributors](https://github.com/devaslanphp/filament-avatar/graphs/contributors)
 
 ## License
 
